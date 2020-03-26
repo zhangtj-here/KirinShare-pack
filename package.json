@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/zhangtj-here/KirinShare-pack/issues"
   },
-  "homepage": "https://github.com/zhangtj-here/KirinShare-pack#readme"
+  "homepage": "https://github.com/zhangtj-here/KirinShare-pack#readme",
+  "dependencies": {
+    "@babel/generator": "^7.9.4",
+    "@babel/parser": "^7.9.4",
+    "@babel/traverse": "^7.9.0"
+  }
 }
