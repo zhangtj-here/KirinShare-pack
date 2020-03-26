@@ -1,0 +1,23 @@
+{
+  "name": "kirinShare-pack",
+  "version": "1.0.0",
+  "description": "这是一个打包工具，类似于webpack微型版",
+  "main": "index.js",
+  "bin": {
+    "kirinshare-pack": "./bin/kirinshare-pack.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangtj-here/KirinShare-pack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangtj-here/KirinShare-pack/issues"
+  },
+  "homepage": "https://github.com/zhangtj-here/KirinShare-pack#readme"
+}
