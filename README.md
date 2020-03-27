@@ -222,8 +222,10 @@ post: 后置loader
 2. 根据正则匹配到对应的文件类型，同时再批量导入loader函数
 3. 倒序迭代调用所有loader函数（loader的加载顺序从右到左，也是倒叙）
 4. 最后返回处理后的代码
+5. 在rules中，配置rule.enforce可以修改顺序，顺序为pre > inline > normal > post
 
 在实现itheima-pack的loader功能时，同样也可以在加载每个模块时，根据rules的正则来匹配是否满足条件，如果满足条件则加载对应的loader函数并迭代调用
+
 
 depAnalyse()方法中获取到源码后，读取loader：
 
